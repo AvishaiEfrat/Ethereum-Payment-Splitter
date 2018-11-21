@@ -6,6 +6,7 @@ The current functionality consists of:
 1. Adding recipients and their relative royalties of a song (name, address, % of royalties).
 2. Depositing and sending them these shares based on a certain deposited amount for the song.
 ```
+**Do not use with real funds without a proper audit**.
 
 ## Required Installations
 1. NPM (https://www.npmjs.com/get-npm)
