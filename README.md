@@ -9,9 +9,9 @@ The current functionality consists of:
 
 ## Required Installations
 1. NPM (https://www.npmjs.com/get-npm)
-2. Truffle using NPM (https://www.truffleframework.com/truffle) by typing **npm install truffle -g**
+2. Truffle, using NPM (https://www.truffleframework.com/truffle) by typing **npm install truffle -g**
 3. Ganache (https://www.truffleframework.com/ganache)
-4. MetaMask in your browser (https://metamask.io) and create a user.
+4. MetaMask - add it to your browser (https://metamask.io) and create a user
 
 You should understand the basic functionality and purpose of these tools before moving forward.
 
