@@ -7,11 +7,11 @@ The current functionality consists of:
 2. Depositing and sending them these shares based on a certain deposited amount for the song.
 ```
 
-## Prerequisites
-1. Install NPM (https://www.npmjs.com/get-npm)
-2. Install Truffle using NPM (https://www.truffleframework.com/truffle) by typing **npm install truffle -g**
-3. Install Ganache (https://www.truffleframework.com/ganache)
-4. Install MetaMask in your browser (https://metamask.io) and create a user.
+## Required Installations
+1. NPM (https://www.npmjs.com/get-npm)
+2. Truffle using NPM (https://www.truffleframework.com/truffle) by typing **npm install truffle -g**
+3. Ganache (https://www.truffleframework.com/ganache)
+4. MetaMask in your browser (https://metamask.io) and create a user.
 
 You should understand the basic functionality and purpose of these tools before moving forward.
 
