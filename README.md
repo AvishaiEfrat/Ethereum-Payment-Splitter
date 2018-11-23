@@ -2,6 +2,8 @@
 
 An Ether Payment Splitter for musical royalties. It's a web based DApp test project using Solidity & JS Web3 library. 
 
+![](/AppSteinScreenShot.png)
+
 The current functionality consists of:
 ```
 1. Adding recipients and their relative royalties of a song (name, address, % of royalties).
