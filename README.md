@@ -1,6 +1,6 @@
 # Ethereum-Payment-Splitter
 
-An Ether Payment Splitter for musical royalties. It's a web based DApp test project using Solidity & JS Web3 library. 
+An Ether Payment Splitter for musical royalties. It's a web based DApp test project using Solidity & Javascript (including the Web3 library).
 
 ![](/AppSteinScreenShot.png)
 
