@@ -68,7 +68,7 @@ Here is a list directing to the files holding the logic of the DApp. I made thes
 * Project inspiration and guidence by Chanan Sack. 
 * README.md structure taken from https://gist.githubusercontent.com/PurpleBooth.
 * HTML & JS original structure based on Javascript30's tutorials (www.javascript30.com).
-* Background image from https://pixabay.com/en/microphone-music-audio-radio-voice-1007154 (Creative Commons CC0).
+* Background image from https://pixabay.com/en/audio-condenser-microphone-music-1844798 (Creative Commons CC0).
 
 ## Also Check
 * [Open Zeppelin Payment Splitter] (https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/payment/PaymentSplitter.sol) - A payment splitter on the Open Zeppelin GitHub page (a library for secure smart contract development).
