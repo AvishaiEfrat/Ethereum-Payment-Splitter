@@ -50,6 +50,8 @@ Here is a list directing to the files holding the logic of the DApp. I made thes
 1. /AppStein.html - Holds the HTML & JaVaScript logic.
 2. /Contracts/AppStein.sol - Holds the Solidity Logic.
 3. /Contracts/Ownable.sol - Holds the Open Zeppelin Ownable contract Solidity logic. 
+4. /style.css - Holds the styling & formatting for the html file.
+5. /truffle.js and /truffle-config.js - Hold the project's configuration for the network exports & migrations.
 ```
 
 ## Built With
