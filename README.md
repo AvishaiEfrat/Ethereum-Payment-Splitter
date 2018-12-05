@@ -44,6 +44,14 @@ You should now be ready to go!
 7. Submit!
 8. The amounts should be transferred in accordence to your specifications.
 
+## Quick Guide for Developers
+Here is a list directing to the files holding the logic of the DApp. I made these files as documented as possible.
+```
+1. /AppStein.html - Holds the HTML & JaVaScript logic.
+2. /Contracts/AppStein.sol - Holds the Solidity Logic.
+3. /Contracts/Ownable.sol - Holds the Open Zeppelin Ownable contract Solidity logic. 
+```
+
 ## Built With
 * [NPM] (https://www.npmjs.com/get-npm) - Dependency Management.
 * [Ganache] (https://www.truffleframework.com/ganache) - Used to create and manage a local BlockChain tesnet on the localhost.
