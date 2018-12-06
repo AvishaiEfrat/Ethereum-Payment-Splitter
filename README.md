@@ -45,9 +45,9 @@ You should now be ready to go!
 8. The amounts should be transferred in accordence to your specifications.
 
 ## Quick Guide for Developers
-Here is a list directing to the files holding the logic of the DApp. I made these files as documented as possible.
+Here is a list of the files holding the logic of the DApp. I made these files as documented as possible.
 ```
-1. /AppStein.html - Holds the HTML & JaVaScript logic.
+1. /AppStein.html - Holds the HTML & JavaScript logic.
 2. /Contracts/AppStein.sol - Holds the Solidity Logic.
 3. /Contracts/Ownable.sol - Holds the Open Zeppelin Ownable contract Solidity logic. 
 4. /style.css - Holds the styling & formatting for the html file.
