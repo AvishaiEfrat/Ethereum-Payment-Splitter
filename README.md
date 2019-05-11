@@ -4,7 +4,7 @@ An Ether Payment Splitter for musical royalties. It's a web based DApp test proj
 
 ![](/AppSteinScreenShot.png)
 
-The current functionality consists of:
+The current functionality consists of the following::
 ```
 1. Adding recipients and their relative royalties of a song (name, address, % of royalties).
 2. Depositing and sending them these shares based on a certain deposited amount for the song.
