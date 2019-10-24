@@ -1,5 +1,9 @@
 # Ethereum-Payment-Splitter
 
+IMPORTANT NOTE: The web3 library used here has had a vulnerabilty found in it which hasn't been patched yet (WS-2019-0097):
+https://github.com/ethereum/web3.js/issues/2739
+
+
 An Ether Payment Splitter for musical royalties. It's a web based DApp test project using Solidity & Javascript (including the Web3 library).
 
 ![](/AppSteinScreenShot.png)
