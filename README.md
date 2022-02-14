@@ -1,13 +1,14 @@
 # Ethereum-Payment-Splitter
 
-IMPORTANT NOTE: The web3 library used here has had a vulnerabilty found in it which hasn't been patched yet (WS-2019-0097):
-https://github.com/ethereum/web3.js/issues/2739
-
-
 An Ether Payment Splitter for musical royalties. It's a web based DApp test project using Solidity & Javascript (including the Web3 library).
 
 ![](/AppSteinScreenShot.png)
 
+## Important Note
+The web3 library used here has had a vulnerabilty found in it which hasn't been patched yet - WS-2019-0097
+(https://github.com/ethereum/web3.js/issues/2739). This isn't relevant to the current version of the project, however if you use web.js and implement the wallet.save method (https://web3js.readthedocs.io/en/v1.2.0/web3-eth-accounts.html#wallet-save), which stores the wallet encrypted and as string in local storage , you should be aware that it's vulnerable to Insecure Credential Storage.
+
+## Overview
 The current functionality consists of the following::
 ```
 1. Adding recipients and their relative royalties of a song (name, address, % of royalties).
