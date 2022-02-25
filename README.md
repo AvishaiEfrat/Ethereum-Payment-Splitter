@@ -6,7 +6,7 @@ An Ether Payment Splitter for musical royalties. It's a web based DApp test proj
 
 ## Important Note
 The web3 library used here has had a vulnerabilty found in it which hasn't been patched yet - WS-2019-0097
-(https://github.com/ethereum/web3.js/issues/2739). This isn't relevant to the current version of the project, however if you use web.js and implement the wallet.save method (https://web3js.readthedocs.io/en/v1.2.0/web3-eth-accounts.html#wallet-save), which stores the wallet encrypted and as string in local storage , you should be aware that it's vulnerable to Insecure Credential Storage attacks.
+(https://github.com/ethereum/web3.js/issues/2739). This isn't relevant to the current version of the project, however if you use web.js and implement the wallet.save method (https://web3js.readthedocs.io/en/v1.2.0/web3-eth-accounts.html#wallet-save), which stores the wallet encrypted and as string in local storage, you should be aware that it's vulnerable to Insecure Credential Storage attacks.
 
 ## Overview
 The current functionality consists of the following::
@@ -29,12 +29,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Start Ganache and make sure that it's configured to localhost **port 8545**
 2. Go to the project's local folder
-3. type **truffle migrate --reset --compile-all** in order to recompile and upload the Solidity contracts to the local testnet (Ganache)
+3. Type **truffle migrate --reset --compile-all** in order to recompile and upload the Solidity contracts to the local testnet (Ganache)
 4. Type **truffle console** to enter Truffle's Web3 console
 5. Type **AppStein.new().then( result => {new_instance = result})** in order to save the information from the contract into a variable you can reference using a Javascript promise
 6. Check the deployed contract's address by typing **new_instance.address**
-7. make sure that the address is the same in **line 160** in the **AppStein.html** file which is located in the project folder (**0x5227e903028a5ca06c029afe269053fd146f4540**). 
+7. Make sure that the address is the same in **line 160** in the **AppStein.html** file which is located in the project folder (**0x5227e903028a5ca06c029afe269053fd146f4540**). 
    If not, update the correct address.
+8. Verify that the ABI in **line 70** in the **AppStein.html** file is the the value that resides under the **/build/contracts/AppStein.JSON** file. Another implementation is 
+   possible for this, as suggested here, among other places (reading the JSON contents dynamically instead of entering the static ABI hardcoded value): 
+   https://ethereum.stackexchange.com/questions/38828/what-is-the-best-way-to-get-the-json-abi-after-deploying-a-contract-with-truffle.
 
 You should now be ready to go!
 
