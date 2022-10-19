@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 // SYNOPSIS: This is basically a payment splitter. It receives a 100% worth of recipient and sends them the funds which have been deposited in the contract.
 // I've done my best to circumvent any potential security flaws (especially since the GUI isn't really needed to interact with the contracts) but this might still need to be tested. 
 // You should also check out this OpenZeppelin audited branch which holds similar logic (payments splitter): 
-// https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/payment/PaymentSplitter.sol
+// https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol
 
 import "./Ownable.sol"; //Added for extended management of the contract
 
