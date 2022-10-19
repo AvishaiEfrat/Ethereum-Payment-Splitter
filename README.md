@@ -6,7 +6,7 @@ An Ether Payment Splitter for musical royalties. It's a web based DApp test proj
 
 ## Important Note
 The web3 library used here has had a vulnerabilty found in it which hasn't been patched yet - WS-2019-0097
-(https://github.com/ethereum/web3.js/issues/2739). This isn't relevant to the current version of the project, however if you use web.js and implement the wallet.save method (https://web3js.readthedocs.io/en/v1.2.0/web3-eth-accounts.html#wallet-save), which stores the wallet encrypted and as a string in local storage, you should be aware that it's vulnerable to Insecure Credential Storage attacks (once a user enters a passowrd to load the wallet from storage, the privatekey will remain available and this leaves the privatekey vulnerable to XSS).
+(https://github.com/ethereum/web3.js/issues/2739). This isn't relevant to the current version of the project, however if you use web.js and implement the wallet.save method (https://web3js.readthedocs.io/en/v1.2.0/web3-eth-accounts.html#wallet-save), which stores the wallet encrypted and as a string in local storage, you should be aware that it's vulnerable to Insecure Credential Storage attacks (once a user enters a password to load the wallet from storage, the private key will remain available and this leaves the private key vulnerable to XSS).
 
 ## Overview
 The current functionality consists of the following::
