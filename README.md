@@ -45,12 +45,12 @@ You should now be ready to go!
 1. Open the **AppStein.html** file, located in the project folder
 2. Open Metamask and login
 3. Configure MetaMask to run on your localhost network on **port 8545** (using the dropdown menu in the main screen).
-4. Configure MetaMask to use you Ganache account by importing the seed.
+4. Configure MetaMask to use your Ganache account by importing the seed.
    This is explained here: https://ethereum.stackexchange.com/questions/34287/using-ganache-with-an-existing-metamask-account
 5. Add a recipient, an address and a percentage of music royalties. Now press the **Add Recipient** button.
 6. Add a song ID & named and enter an amount of Ether to submit.
 7. Submit!
-8. The amounts should be transferred in accordence to your specifications.
+8. The amounts should be transferred in accordance to your specifications.
 
 ## Quick Guide for Developers
 Here is a list of the files holding the logic of the DApp. I made these files as documented as possible.
