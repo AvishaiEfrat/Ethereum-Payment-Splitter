@@ -79,4 +79,4 @@ Here is a list of the files holding the logic of the DApp. I made these files as
 * Background image from https://pixabay.com/en/audio-condenser-microphone-music-1844798 (Creative Commons CC0).
 
 ## Also Check
-* [Open Zeppelin Payment Splitter] (https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/payment/PaymentSplitter.sol) - A payment splitter on the Open Zeppelin GitHub page (a library for secure smart contract development).
+* [Open Zeppelin Payment Splitter] (https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol) - A payment splitter on the Open Zeppelin GitHub page (a library for secure smart contract development).
