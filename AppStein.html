@@ -174,7 +174,7 @@
                  + "<br>" + "<b>ETH Address: </b>" + (this.querySelector('[placeholder=Address]')).value 
                  + "<br>" + "<b>% of the song's royalties: </b>" + (this.querySelector('[placeholder=Percentage]')).value;
 
-      //Variable used to monitor percentage is valie
+      //Variable used to monitor the percentage value
       const web3PercentageForSum =  (this.querySelector('[placeholder=Percentage]')).value;
       //Sum up total percentage
       sumPercentage = +sumPercentage + +web3PercentageForSum;
@@ -239,8 +239,7 @@
     //Handles the SEND ROYALTIES button
     function sendRoyalties(_amount) {
       //send data to contract
-      var newAmount = +_amount;
-      var etherAmount = web3.toBigNumber(newAmount);
+      var etherAmount = web3.toBigNumber(_amount);
       var weiValue = web3.toWei(etherAmount,'ether');
       AppStein.fundContract({'value': weiValue, gas:3000000});
       AppStein.payRecipients({gas:3000000});
